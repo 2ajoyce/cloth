@@ -1,4 +1,4 @@
-enum Material {
+enum FabricType {
     COTTON = 'cotton',
     DENIM = 'denim',
     FELT = 'felt',
@@ -14,4 +14,4 @@ enum Material {
     CANVAS = 'canvas',
 }
 
-export default Material
+export default FabricType

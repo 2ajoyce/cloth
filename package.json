@@ -7,13 +7,14 @@
     "@types/node": "11.11.3",
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
+    "cloudinary-react": "^1.1.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
     "typescript": "3.3.3333"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start -p 3005",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
