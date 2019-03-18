@@ -7,7 +7,10 @@ enum Color {
     BLACK = 'black',
     GREY = 'grey',
     YELLOW = 'yellow',
-    KHAKI = 'khaki'
+    KHAKI = 'khaki',
+    LIGHT_BROWN = 'light brown',
+    DARK_BROWN = 'dark brown',
+    BROWN = 'brown'
 }
 
 export default Color

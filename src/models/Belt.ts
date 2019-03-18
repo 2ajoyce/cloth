@@ -1,22 +1,21 @@
 import DressCode from './DressCode'
-import Thing from './Thing'
 import Color from './Color'
 import {Image} from 'cloudinary-react'
 import Material from './Material'
+import Garment from './Garment'
 import GarmentType from './GarmentType'
 
-
-class Garment extends Thing {
+class Belt extends Garment {
     constructor(
         id: string,
         color: Array<Color>,
         image: Image,
-        public dressCode: DressCode,
-        public garmentType: GarmentType,
-        public material: Material[]
+        dressCode: DressCode,
+        garmentType: GarmentType,
+        material: Material[]
     ) {
-        super(id, color, material, image)
+        super(id, color, image, dressCode, GarmentType.BELT, material)
     }
 }
 
-export default Garment
+export default Belt

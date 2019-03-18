@@ -6,7 +6,13 @@ import {Image} from 'cloudinary-react'
 
 
 class Shoe extends Thing {
-    constructor(id: string, color: Array<Color>, material: Array<Material>, image: Image, public dressCode: DressCode) {
+    constructor(
+        id: string,
+        color: Array<Color>,
+        material: Array<Material>,
+        image: Image,
+        public dressCode: DressCode
+    ) {
         super(id, color, material, image)
     }
 }
