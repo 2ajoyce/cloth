@@ -1,3 +1,20 @@
+Working from this repo
+
+https://github.com/piotrwitek/react-redux-typescript-guide#tutorials--articles
+
+https://codesandbox.io/s/github/piotrwitek/typesafe-actions/tree/master/codesandbox
+
+Might refactor to look like this
+
+https://medium.com/@resir014/redux-4-typescript-2-9-a-type-safe-approach-7f073917b803
+
+
+Not completely sure how sagas will fit into things, but we'll see.
+ 
+https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

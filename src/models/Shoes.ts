@@ -5,7 +5,7 @@ import Material from './Material'
 import {Image} from 'cloudinary-react'
 
 
-class Shoe extends Thing {
+class Shoes extends Thing {
     constructor(
         id: string,
         color: Array<Color>,
@@ -17,4 +17,4 @@ class Shoe extends Thing {
     }
 }
 
-export default Shoe
+export default Shoes

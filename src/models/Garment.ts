@@ -6,8 +6,8 @@ import Material from './Material'
 import GarmentType from './GarmentType'
 
 
-class Garment extends Thing {
-    constructor(
+abstract class Garment extends Thing {
+    protected constructor(
         id: string,
         color: Array<Color>,
         image: Image,

@@ -5,7 +5,7 @@ import Material from './Material'
 import Garment from './Garment'
 import GarmentType from './GarmentType'
 
-class Belt extends Garment {
+class Shorts extends Garment {
     constructor(
         id: string,
         color: Array<Color>,
@@ -13,8 +13,8 @@ class Belt extends Garment {
         dressCode: DressCode,
         material: Material[]
     ) {
-        super(id, color, image, dressCode, GarmentType.BELT, material)
+        super(id, color, image, dressCode, GarmentType.SHORTS, material)
     }
 }
 
-export default Belt
+export default Shorts

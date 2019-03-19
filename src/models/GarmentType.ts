@@ -4,7 +4,8 @@ enum GarmentType {
     PANTS,
     JACKET,
     TIE,
-    BELT
+    BELT,
+    SHORTS
 }
 
 export default GarmentType
